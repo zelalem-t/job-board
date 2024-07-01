@@ -24,7 +24,7 @@ export default async function NewJob(){
 
         <div className="container">
          <pre>
-         {JSON.stringify(companyMemberShips)}
+         
         </pre> 
         {user &&(
             <div>
@@ -32,6 +32,7 @@ export default async function NewJob(){
                 <h2 className="text-lg mt-6">Add a New Job</h2>
                 <p className="text-sm text-gray-500 mb-2">Select a company to add a job post</p>
                 <div className="border border-blue-200 bg-blue-100 p-4 rounded-md">
+                    
                     No campanies found for this user.
                 </div>
                 <h2 className="text-lg mt-6">Create a new company</h2>
